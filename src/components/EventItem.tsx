@@ -1,4 +1,4 @@
-import { Paper, Text, Flex, Box, Card, CardSection } from "@mantine/core"
+import { Paper, Text, Flex, Box } from "@mantine/core"
 import { ReactNode } from "react"
 
 function getMonthName(month: number) {
