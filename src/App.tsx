@@ -10,7 +10,7 @@ function App() {
       `https://api.api-ninjas.com/v1/historicalevents?month=${12}&day=${17}`,
       {
         headers: {
-          "X-Api-Key": "tDO8l/hSA0evAf+AGdACVA==PyA1ApDqI6G4bQeL",
+          "X-Api-Key": `${process.env.REACT_APP_API_KEY}`,
         },
       }
     )
