@@ -57,16 +57,18 @@ function App() {
           }
         /> */}
         {eventsList.map((event, index) => (
-          <Container>
-            <Space key={index} h="md" />
-            <EventItem
-              key={index} // Add a unique key prop for each item
-              year={event.year}
-              month={event.month}
-              day={event.day}
-              text={event.event}
-            />
-          </Container>
+          // <Container>
+          // <>
+          // {/* <Space key={index} h="md" /> */}
+          <EventItem
+            key={index} // Add a unique key prop for each item
+            year={event.year}
+            month={event.month}
+            day={event.day}
+            text={event.event}
+          />
+          // </>
+          // </Container>
         ))}
       </div>
     </>
